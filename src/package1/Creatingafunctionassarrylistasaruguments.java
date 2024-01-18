@@ -19,7 +19,7 @@ public class Creatingafunctionassarrylistasaruguments {
 	s1.add("b");
 	System.out.println();
 	s2.add("a");
-	s2.add("b");
+	s2.add("b3[po");
 	if(s1.equals(s2))
 	{
 		System.out.println("equal");

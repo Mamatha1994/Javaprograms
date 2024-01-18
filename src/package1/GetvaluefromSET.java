@@ -3,7 +3,8 @@ package package1;
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class GetvaluefromSET {
+public class GetvaluefromSET
+{
 
 	public static void main(String[] args)
 	{

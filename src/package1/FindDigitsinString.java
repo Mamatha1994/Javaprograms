@@ -21,7 +21,7 @@ public class FindDigitsinString {
 		cha++;
 		
 		}
-		if(Character.isWhitespace(i))
+	    if(Character.isWhitespace(i))
 		{
 	sp++;
 		}

@@ -1,8 +1,8 @@
 package package1;
 
-public class NonrepeatedcharinString {
-
-	public static void main(String[] args)
+public class NonrepeatedcharinString 
+{
+public static void main(String[] args)
 	{
 		String s="mamatha";
 		char ch[]=s.toCharArray();
