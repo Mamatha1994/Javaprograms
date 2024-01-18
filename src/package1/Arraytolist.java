@@ -15,6 +15,6 @@ public class Arraytolist {
 	      List<String> list = Arrays.asList(a);
 
 	      // printing the list
-	      System.out.println("The list is:" + list);
+	      System.out.println("The list iss:" + list);
 	   }
 	}
