@@ -1,4 +1,4 @@
-package package1;
+package package2;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -19,7 +19,7 @@ public class removedupusinghashmap {
 		}
 		
 		System.out.println(m);
-		//added
+		
 
 	}
 
