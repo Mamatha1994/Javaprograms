@@ -11,7 +11,14 @@ public class GetvaluefromSET
 		HashSet<String> set=new HashSet<>();
 		set.add("a");
 		set.add("b");
-				int x = set.size();
+				
+				System.out.println(set);
+				Object[] arr1 = set.toArray();//covering list into array we use setorlist_refvaraible.array() 
+				                             //method which returns..Arrays.toString(arr1)
+				
+				System.out.println(Arrays.toString(arr1));
+				for(Object e:arr1)
+					System.out.println(e);
 		
 		
 			String[] arr = set.toArray(new String[set.size()]);

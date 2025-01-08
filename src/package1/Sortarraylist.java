@@ -15,6 +15,8 @@ public class Sortarraylist {
 		System.out.println("before sorting"+ a);
 		Collections.sort(a);
 		System.out.println("After sorting"+a);
+		Collections.reverse(a);
+		System.out.println(a);
 
 	}
 

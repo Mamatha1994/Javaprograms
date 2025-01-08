@@ -12,6 +12,9 @@ public class Descendingsort {
 		a.add(100);
 		a.add(56);
 		a.add(1245);
+		System.out.println(a);
+		Collections.sort(a);
+		System.out.println(a);
 		//Collections.sort(a,Collections.reverseOrder());
 		Collections.reverse(a);
 		System.out.println(a);

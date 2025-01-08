@@ -1,28 +1,30 @@
 package package1;
 
-public class reverseeachcharinword {
+import java.util.Arrays;
+
+public class reverseeachcharinword 
+{
 
 	public static void main(String[] args) 
 	{
 		
 		String s="WElcome to Java prg";
-		//String word[]=s.split("\\s");
-		char[] word = s.toCharArray();
-		String reverseword="";
-		for(Character w:word)
+		String[] word = s.split("");
+		String reversestring="";
+		for(String w:word)
 		{
-			StringBuilder b=new StringBuilder(w);
+			String reverseword="";
+			for(int i=w.length()-1;i>=0;i--)
+			{
+				reverseword=reverseword+w.charAt(i);
+				System.out.println(reverseword);
+			}
+			reversestring=reversestring+reverseword;
 			
-			b.reverse();
-			System.out.println(b);
-			reverseword+=b.toString()+" ";
 		}
-		System.out.println(reverseword);
-	}
-	
-	
-		  
-		 
-	
-
+		System.out.println(reversestring);
+		
 }
+}
+
+

@@ -1,10 +1,13 @@
 package package1;
 
+import java.util.Arrays;
+
 public class Sortcharinstring 
 {
 	public static void main(String[] args) 
 	{ 
 		String s1="Mamatha";
+		System.out.println(s1);
 		s1=s1.toLowerCase();
 		char cha[] = s1.toCharArray();
 		char temp;
@@ -20,7 +23,8 @@ public class Sortcharinstring
 				}
 			}
 		}
-		System.out.println(new String(cha));
+		//System.out.println(new String(cha));
+		System.out.println(Arrays.toString(cha));
 	
 		
 	}

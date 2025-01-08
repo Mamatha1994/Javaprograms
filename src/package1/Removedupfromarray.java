@@ -1,5 +1,7 @@
 package package1;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 
 public class Removedupfromarray {
@@ -10,14 +12,25 @@ public class Removedupfromarray {
 		int m = arr.length;
 		System.out.println(m);
 		HashSet<Integer> h=new HashSet<Integer>();
-		for(int i=0; i<=m-1;i++)
+		for(int i=0; i<m;i++)
 		{
 			h.add(arr[i]);
 		}
 		System.out.println(h);
 		
-		
-	}
-
-	
+//		
+////	}
+//		String str[]={"abc","abc","def"};
+//		
+//		//String a = Arrays.toString(str);
+//		//System.out.println(a);
+//		HashSet<Character> h=new HashSet<>();
+//		for(int i=0;i<a.length();i++)
+//		{
+//			h.add( a.charAt(i));
+//		}
+//		System.out.println(h);
+//	}	
 }
+}
+

@@ -4,11 +4,11 @@ public class Palindrome {
 
 	public static void main(String[] args)
 	{
-		String s1="MOM";
+		String s1="MOM Is abc";
 		String s2="";
-		int lengt=s1.length();
-		System.out.println("length of array"+lengt);
-		for(int i=lengt-1;i>=0;i--)
+		
+		//System.out.println("length of array"+lengt);
+		for(int i=s1.length()-1;i>=0;i--)///for string lenght()-1 of array length-1
 		{
 			s2=s2+s1.charAt(i);
 		}

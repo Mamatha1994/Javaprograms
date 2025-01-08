@@ -15,15 +15,17 @@ public class FindDigitsinString {
 			digit++;
 			System.out.println(s.charAt(i));
 		}
-		if(Character.isAlphabetic(s.charAt(i)))
+		else if(Character.isAlphabetic(s.charAt(i)))
 		{
 		
 		cha++;
+		System.out.println(s.charAt(i));
 		
 		}
-	    if(Character.isWhitespace(i))
+		else if(Character.isWhitespace(i))
 		{
 	sp++;
+	System.out.println(s.charAt(i));
 		}
 		
 		}

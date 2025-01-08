@@ -1,30 +1,31 @@
 package package1;
 
-public class Printprimenum {
+public class Printprimenum
+{
 
 	public static void main(String[] args)
 	{
-		int num=20;
-		int count;
-		for(int i=1;i<=num;i++)
+		int arr[]= {1,2,3,4,5,6,7,8,9,10,11,12,13,14};
+		//int l = arr.length;
+		for(int i=0;i<arr.length;i++)
 		{
-			count=0;
-			for(int j=2;j<i/2;j++)
+			if(arr[i]%2==0)
 			{
-				if(i%j==0)
-				{
-					count++;
-					break;
-				}
+				System.out.println("even"+arr[i]);
 			}
-			if(count==0)
+		}
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]%2!=0)
 			{
-				System.out.println(i);
+				System.out.println("odd"+arr[i]);
 			}
-
+			
 		}
 		
+
 	}
+
 }
 
 

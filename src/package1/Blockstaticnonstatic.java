@@ -6,7 +6,7 @@ public class Blockstaticnonstatic
 
 	public static void main(String[] args)
 	{
-		System.out.println(Blockstaticnonstatic.x);;
+		System.out.println(x);;
 		add.method2();
 		add q=new add();//creating object as the method is nonstatic
 		q.method1(1234567);

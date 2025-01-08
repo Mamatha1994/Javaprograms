@@ -6,6 +6,7 @@ public class Reversestringusingstringcalss {
 	{
 		String st="Mamatha";
 		String st1 = new StringBuffer(st).reverse().toString();
+				
 		System.out.println(st1);
 
 	}
