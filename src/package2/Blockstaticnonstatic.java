@@ -6,10 +6,12 @@ public class Blockstaticnonstatic
 
 	public static void main(String[] args)
 	{
+		
 		System.out.println(x);;
-		add.method2();
-		add q=new add();//creating object as the method is nonstatic
+		add.method2();         //directly calling by classname.method as static
+		add q=new add();      //creating object as the method is nonstatic
 		q.method1(1234567);
+		
 	}
 
 }
@@ -20,12 +22,14 @@ public class Blockstaticnonstatic
 	 int c=2;
 	 void method1(int z)//non static method
 	 
-	{   a=z;
-		 int d=4;//local variable must be intialized as they don't have default values
+	{  
+		a=z;
+		int d=4;//local variable must be intialized as they don't have default values
 		System.out.println("This non static method");
 		System.out.println(d);
 		System.out.println(a);
 		System.out.println(b);
+		
 	}
 	 static void method2()//static method
 	 {

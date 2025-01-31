@@ -4,7 +4,8 @@ public class Reversenumber {
 
 	public static void main(String[] args) 
 	{
-		int num=123456;
+		int num=111;
+		int backup=num;
 		int reverse=0;
 		while(num!=0)
 	{ 
@@ -14,6 +15,14 @@ public class Reversenumber {
 	}
 		
 		System.out.println(reverse);
+		if(backup==reverse)
+		{
+			System.out.println("palindrome");
+		}
+		else
+		{
+			System.out.println("not palindrome");
+		}
 		
 	}
 	

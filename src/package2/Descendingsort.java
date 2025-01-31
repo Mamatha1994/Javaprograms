@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class Descendingsort {
 
-	public static void main(String[] args)
+	public static void main(String args[])
 	{
 		ArrayList<Integer> a=new ArrayList<Integer>();
 		a.add(1);

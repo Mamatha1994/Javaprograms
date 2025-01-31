@@ -2,7 +2,7 @@ package package2;
 
 public class CombineString {
 
-	public static void main(String[] args)
+	public static void main(String args[])
 	{
 		String S1="Heloo";
 		String S2="Hi";

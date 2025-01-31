@@ -15,7 +15,12 @@ public class removedupusinghashmap {
 			{
 				m.remove(arr[i]);
 			}
-			else	m.put(arr[i], 1);
+			else	
+				{
+				m.put(arr[i], 1);
+				}
+			
+				
 		}
 		
 		System.out.println(m);
